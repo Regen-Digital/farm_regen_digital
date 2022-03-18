@@ -1,0 +1,5 @@
+name: Regen Digital
+type: module
+description: farmOS module for Regen Digital.
+package: farmOS Contrib
+core_version_requirement: ^9

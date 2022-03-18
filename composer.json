@@ -1,11 +1,11 @@
 {
-  "name": "paul121/farm_contrib_template",
-  "description": "Example farmOS contrib module.",
+  "name": "paul121/farm_regen_digital",
+  "description": "farmOS module for Regen Digital",
   "type": "drupal-module",
   "authors": [
       {
-          "name": "Author name",
-          "email": "info@farmos.org"
+          "name": "Paul Weidner",
+          "email": "paul.weidner@gmail.com"
       }
   ],
   "require": {

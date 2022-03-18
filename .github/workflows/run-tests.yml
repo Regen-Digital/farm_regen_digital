@@ -16,8 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       COMPOSE_FILE: docker-compose.testing.yml
-      # Edit this to match your module name.
-      MODULE_NAME: farm_contrib_template
+      MODULE_NAME: farm_regen_digital
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
