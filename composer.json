@@ -1,0 +1,14 @@
+{
+  "name": "paul121/farm_contrib_template",
+  "description": "Example farmOS contrib module.",
+  "type": "drupal-module",
+  "authors": [
+      {
+          "name": "Author name",
+          "email": "info@farmos.org"
+      }
+  ],
+  "require": {
+    "farmos/farmos": "^2.0.0-beta3"
+  }
+}
