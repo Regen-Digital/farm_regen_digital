@@ -1,7 +1,7 @@
 name: Regen Digital
 type: module
 description: farmOS module for Regen Digital.
-package: farmOS Contrib
+package: farmOS Custom
 core_version_requirement: ^9
 dependencies:
   - farm_regen_digital:farm_regen_digital_profile
