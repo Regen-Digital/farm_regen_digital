@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_regen_digital_profile
+id: regen_digital
+label: 'Regen Digital'
