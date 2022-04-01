@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - farm_profile.profile_type.regen_digital
+    - field.storage.profile.other_organisations
+  enforced:
+    module:
+      - farm_regen_digital_profile
+id: profile.regen_digital.other_organisations
+field_name: other_organisations
+entity_type: profile
+bundle: regen_digital
+label: 'Other organisations'
+description: '<i>Please list any other affiliations<i>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

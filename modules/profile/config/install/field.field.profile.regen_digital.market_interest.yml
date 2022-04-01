@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - farm_profile.profile_type.regen_digital
+    - field.storage.profile.market_interest
+  enforced:
+    module:
+      - farm_regen_digital_profile
+id: profile.regen_digital.market_interest
+field_name: market_interest
+entity_type: profile
+bundle: regen_digital
+label: 'Market Interest'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

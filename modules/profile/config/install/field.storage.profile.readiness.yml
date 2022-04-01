@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - farm_profile
+    - options
+  enforced:
+    module:
+      - farm_regen_digital_profile
+id: profile.readiness
+field_name: readiness
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: generated_accu
+      label: 'Have generated and sold ACCU''s before'
+    -
+      value: registered_erf_project
+      label: 'Have a registered project with ERF/LRF and yet to convert'
+    -
+      value: covenant_on_title
+      label: 'Have a covenant on title with a State Based Land Trust or similar philanthropic organisation over part or all of my farm'
+    -
+      value: baseline_data
+      label: 'Have baselines and am collecting rectified data, but have yet to select a market'
+    -
+      value: understand_markets
+      label: 'Have a sound understanding of environmental markets and understand feasibility'
+    -
+      value: basic_understanding
+      label: 'Have a basic understanding of markets, but do not have a feasible plan in place'
+    -
+      value: limited_understanding
+      label: 'Have a limited understanding and wish to get a plan in place'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

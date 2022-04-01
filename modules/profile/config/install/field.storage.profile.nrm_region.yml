@@ -1,0 +1,185 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - farm_profile
+    - options
+  enforced:
+    module:
+      - farm_regen_digital_profile
+id: profile.nrm_region
+field_name: nrm_region
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: act
+      label: ACT
+    -
+      value: central_tablelands
+      label: 'Central Tablelands'
+    -
+      value: central_west
+      label: 'Central West'
+    -
+      value: greater_sydney
+      label: 'Greater Sydney'
+    -
+      value: hunter
+      label: Hunter
+    -
+      value: murray
+      label: Murray
+    -
+      value: northern_tablelands
+      label: 'Northern Tablelands'
+    -
+      value: north_west_nsw
+      label: 'North West NSW'
+    -
+      value: northern_coast
+      label: 'Northern Coast'
+    -
+      value: riverina
+      label: Riverina
+    -
+      value: south_east_nsw
+      label: 'South East NSW'
+    -
+      value: western
+      label: Western
+    -
+      value: nt
+      label: NT
+    -
+      value: border_rivers
+      label: 'Border Rivers Maranoa-Balonne'
+    -
+      value: burdekin
+      label: Burdekin
+    -
+      value: burnett_mary
+      label: 'Burnett Mary'
+    -
+      value: cape_york
+      label: 'Cape York'
+    -
+      value: condamine
+      label: Condamine
+    -
+      value: desert_channels
+      label: 'Desert Channels'
+    -
+      value: fitzroy
+      label: Fitzroy
+    -
+      value: mackay_whitsunday
+      label: 'Mackay Whitsunday'
+    -
+      value: northern_gulf
+      label: 'Northern Gulf'
+    -
+      value: south_east_queensland
+      label: 'South East Queensland'
+    -
+      value: wet_tropics
+      label: 'Wet Tropics'
+    -
+      value: adelaide
+      label: 'Adelaide and Mount Lofty Ranges'
+    -
+      value: alinytjara
+      label: 'Alinytjara Wilurara'
+    -
+      value: eyre_peninsula
+      label: 'Eyre Peninsula'
+    -
+      value: kangaroo_island
+      label: 'Kangaroo Island'
+    -
+      value: northern_yorke
+      label: 'Northern and Yorke'
+    -
+      value: arid_lands
+      label: 'South Australian Arid Lands'
+    -
+      value: murray_darling_basin
+      label: 'South Australian Murray Darling Basin'
+    -
+      value: south_east
+      label: 'South East'
+    -
+      value: north
+      label: North
+    -
+      value: north_west
+      label: 'North West'
+    -
+      value: south
+      label: South
+    -
+      value: corangamite
+      label: Corangamite
+    -
+      value: east_gippsland
+      label: 'East Gippsland'
+    -
+      value: glenelg_hopkins
+      label: 'Glenelg Hopkins'
+    -
+      value: goulburn_broken
+      label: 'Goulburn Broken'
+    -
+      value: mallee
+      label: Mallee
+    -
+      value: north_central
+      label: 'North Central'
+    -
+      value: north_east
+      label: 'North East'
+    -
+      value: port_phillip
+      label: 'Port Phillip and Westernport'
+    -
+      value: west_gippsland
+      label: 'West Gippsland'
+    -
+      value: wimmera
+      label: Wimmera
+    -
+      value: avon
+      label: Avon
+    -
+      value: northern_agricultural
+      label: 'Northern Agricultural'
+    -
+      value: peel_harvey
+      label: 'Peel Harvey'
+    -
+      value: rangelands
+      label: Rangelands
+    -
+      value: south_coast
+      label: 'South Coast'
+    -
+      value: south_west
+      label: 'South West'
+    -
+      value: swan
+      label: Swan
+    -
+      value: marine
+      label: Marine
+    -
+      value: torres_strait
+      label: 'Torres Strait'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

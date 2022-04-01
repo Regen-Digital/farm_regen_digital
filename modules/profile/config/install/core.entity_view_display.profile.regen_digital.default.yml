@@ -1,0 +1,92 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - farm_profile.profile_type.regen_digital
+    - field.field.profile.regen_digital.landcare_group
+    - field.field.profile.regen_digital.market_interest
+    - field.field.profile.regen_digital.nrm_region
+    - field.field.profile.regen_digital.other_organisations
+    - field.field.profile.regen_digital.readiness
+  module:
+    - options
+    - user
+  enforced:
+    module:
+      - farm_regen_digital_profile
+id: profile.regen_digital.default
+targetEntityType: profile
+bundle: regen_digital
+mode: default
+content:
+  created:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  landcare_group:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  market_interest:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 26
+    region: content
+  nrm_region:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  other_organisations:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 24
+    region: content
+  readiness:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  status:
+    type: boolean
+    label: above
+    settings:
+      format: enabled-disabled
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  uid:
+    type: author
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+hidden: {  }
