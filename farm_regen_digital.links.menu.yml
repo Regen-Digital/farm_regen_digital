@@ -1,0 +1,9 @@
+farm_regen_digital.integrations:
+  title: Integrations
+  parent: farm.base
+  route_name: view.farm_loocc_estimates.page
+  weight: 10
+farm_regen_digital.integrations.loocc:
+  title: LOOC-C
+  parent: farm_regen_digital.integrations
+  route_name: view.farm_loocc_estimates.page
