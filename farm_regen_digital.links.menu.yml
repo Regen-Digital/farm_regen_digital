@@ -7,3 +7,8 @@ farm_regen_digital.integrations.loocc:
   title: LOOC-C
   parent: farm_regen_digital.integrations
   route_name: view.farm_loocc_estimates.page
+farm_regen_digital.integrations.myfarmkey:
+  title: MyFarmKey
+  parent: farm_regen_digital.integrations
+  route_name: farm_myfarmkey.import.myfarmkey
+  weight: 10
