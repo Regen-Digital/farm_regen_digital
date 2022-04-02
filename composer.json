@@ -1,5 +1,5 @@
 {
-  "name": "drupal/farm_regen_digital",
+  "name": "regendigital/farm_regen_digital",
   "description": "farmOS module for Regen Digital",
   "type": "drupal-module",
   "authors": [
