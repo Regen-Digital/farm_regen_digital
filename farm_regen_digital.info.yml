@@ -4,4 +4,5 @@ description: farmOS module for Regen Digital.
 package: farmOS Custom
 core_version_requirement: ^9
 dependencies:
+  - farm_loocc:farm_loocc
   - farm_regen_digital:farm_regen_digital_profile
