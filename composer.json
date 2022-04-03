@@ -18,6 +18,6 @@
     "drupal/farm_loocc": "^1.0",
     "drupal/farm_myfarmkey": "^1.0",
     "farmos/farmos": "^2.0.0-beta3",
-    "mstenta/farm_profile": "2.x-dev"
+    "mstenta/farm_profile": "1.x-dev"
   }
 }
