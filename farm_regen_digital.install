@@ -10,7 +10,7 @@
  */
 function farm_regen_digital_install() {
   // @todo Update path for Gin.
-  $path = \Drupal::service('extension.list.module')->getPath('regen_digital');
+  $path = \Drupal::service('extension.list.module')->getPath('farm_regen_digital');
   $config = \Drupal::configFactory()->getEditable('gin.settings');
   $config->set('icon_path', $path . '/logo.png');
   $config->save();
@@ -21,7 +21,7 @@ function farm_regen_digital_install() {
  */
 function farm_regen_digital_uninstall() {
   // @todo Update path for Gin.
-  $path = \Drupal::service('extension.list.module')->getPath('farm_ui_theme');
+  $path = \Drupal::service('extension.list.module')->getPath('farm_regen_digital');
   $config = \Drupal::configFactory()->getEditable('gin.settings');
   $config->set('icon_path', $path . '/logo.png');
   $config->save();
