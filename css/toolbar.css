@@ -1,0 +1,10 @@
+/* Logo size and spacing. */
+.toolbar .toolbar-bar #toolbar-item-administration-tray .toolbar-logo {
+  padding: 0;
+}
+.toolbar .toolbar-bar #toolbar-item-administration-tray .toolbar-logo img.toolbar-icon-home {
+  max-width: 80px !important;
+  max-height: 80px !important;
+  padding-top: 10px !important;
+  margin: auto !important;
+}
