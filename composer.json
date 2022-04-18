@@ -17,7 +17,7 @@
   "require": {
     "drupal/farm_loocc": "^1.0",
     "drupal/farm_myfarmkey": "^1.0",
-    "farmos/farmos": "^2.0.0-beta3",
+    "farmos/farmos": "^2.0.0-beta4",
     "mstenta/farm_profile": "1.x-dev"
   }
 }
