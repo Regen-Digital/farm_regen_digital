@@ -5,6 +5,32 @@
  * Primary module hooks for farmOS Regen Digital module.
  */
 
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_help().
+ */
+function farm_regen_digital_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'farm_regen_digital.help_page':
+      $output = '<h2>' . t('Getting Started') . '</h2>';
+      $output .= '<p>' . t('Follow these steps to set up and start using your digital twin:') . '</p>';
+      $output .= '<ol>';
+      $output .= '<li>' . t('<strong>Map your farm perimeter</strong> Draw your farm perimeter in the map geometry of a <a href=":create_land_asset">new land asset</a>. Mapping will become easier after your farm perimeter is added. All maps in farmOS will zoom to the geometry of the <a href=":land_assets">land assets</a> you create.', [':create_land_asset' => Url::fromRoute('entity.asset.add_form', ['asset_type' => 'land'])->toString(), ':land_assets' => Url::fromRoute('view.farm_asset.page_type', ['arg_0' => 'land'])->toString()]) . '</li>';
+      $output .= '<li>' . t('<strong>Add farm assets</strong> Assets represent the important and valuable things on your farm like land, plants, animals, structures and water. <a href=":add_assets">Add assets</a> that are important for your long term farm plan.', [':add_assets' => Url::fromRoute('entity.asset.add_page')->toString()]) . '</li>';
+      $output .= '<li>' . t('<strong>Record events</strong> Logs represent all kinds of events that happen on your farm. Logs have a name and timestamp and can reference assets and people associated with the event. Try <a href=":create_log">creating a log</a>.', [':create_log' => Url::fromRoute('entity.log.add_page')->toString()]) . '</li>';
+
+      if (\Drupal::currentUser()->hasPermission('administer farm settings')) {
+        $output .= '<li>' . t('<strong>Enable additional features</strong> Additional features are provided with farmOS modules. Modules can be <a href=":settings_page">enabled in the settings page</a>.', [':farm_settings.modules_form' => Url::fromRoute('entity.log.add_page')->toString()]) . '</li>';
+      }
+
+      $output .= '</ol>';
+      $output .= '<p>' . t('For more information, refer to the help listed on this page or to the <a href=":docs">online farmOS user guide</a>.', [':docs' => 'https://farmos.org/guide/']) . '</p>';
+      return ['#markup' => $output];
+  }
+}
+
 /**
  * Implements hook_menu_links_discovered_alter().
  */
