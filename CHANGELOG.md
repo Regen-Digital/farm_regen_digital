@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Help page [#1](https://github.com/paul121/farm_regen_digital/issues/1)
 - RFM logo [#2](https://github.com/paul121/farm_regen_digital/issues/2)
 
 ### Changed

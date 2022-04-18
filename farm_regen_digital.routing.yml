@@ -1,0 +1,7 @@
+farm_regen_digital.help_page:
+  path: '/help'
+  defaults:
+    _title: 'Help'
+    _controller: Drupal\farm_regen_digital\Controller\HelpController::helpPage
+  requirements:
+    _permission: 'access content'
