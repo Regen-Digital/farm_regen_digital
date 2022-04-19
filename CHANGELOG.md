@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Make profile fields required: `nrm_region`, `readiness`
 - Allow multiple values for `readiness`.
 
+### Removed
+
+- Delete `market_interest` field.
+
 ## 1.0.0 2022-04-03
 
 The initial release of this module.

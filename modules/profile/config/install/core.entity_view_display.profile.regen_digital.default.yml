@@ -4,7 +4,6 @@ dependencies:
   config:
     - farm_profile.profile_type.regen_digital
     - field.field.profile.regen_digital.landcare_group
-    - field.field.profile.regen_digital.market_interest
     - field.field.profile.regen_digital.nrm_region
     - field.field.profile.regen_digital.other_organisations
     - field.field.profile.regen_digital.readiness
@@ -35,13 +34,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 23
-    region: content
-  market_interest:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 26
     region: content
   nrm_region:
     type: list_default
