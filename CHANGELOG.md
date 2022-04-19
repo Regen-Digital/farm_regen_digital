@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Depend on farmOS 2.0.0-beta4
 - Make profile fields required: `nrm_region`, `readiness`
+- Allow multiple values for `readiness`.
 
 ## 1.0.0 2022-04-03
 
