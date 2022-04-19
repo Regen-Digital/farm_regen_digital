@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 1.0.1 2022-04-19
+
+**An update hook is not provided with this release.**
+**Profile field changes must be applied manually.**
+
 ### Added
 
 - Help page [#1](https://github.com/paul121/farm_regen_digital/issues/1)
