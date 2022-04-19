@@ -14,7 +14,7 @@ field_name: readiness
 entity_type: profile
 bundle: regen_digital
 label: Readiness
-description: ''
+description: 'What level of readiness are you to engage in a new opportunity?'
 required: true
 translatable: false
 default_value: {  }

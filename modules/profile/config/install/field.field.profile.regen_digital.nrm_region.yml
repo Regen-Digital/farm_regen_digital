@@ -14,7 +14,7 @@ field_name: nrm_region
 entity_type: profile
 bundle: regen_digital
 label: 'NRM Region'
-description: ''
+description: 'What Natural Resource Management Region are you in?'
 required: true
 translatable: false
 default_value: {  }

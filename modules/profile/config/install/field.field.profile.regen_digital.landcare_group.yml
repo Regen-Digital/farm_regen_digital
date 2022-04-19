@@ -12,7 +12,7 @@ field_name: landcare_group
 entity_type: profile
 bundle: regen_digital
 label: 'Landcare Group'
-description: ''
+description: 'Landcare Group'
 required: false
 translatable: false
 default_value: {  }
