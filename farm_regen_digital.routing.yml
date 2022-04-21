@@ -1,3 +1,10 @@
+farm_regen_digital.profiles:
+  path: '/farm/settings/profiles'
+  defaults:
+    _title: 'Profiles'
+    _controller: Drupal\farm_regen_digital\Controller\ProfileController::profiles
+  requirements:
+    _permission: 'view profile'
 farm_regen_digital.help_page:
   path: '/help'
   defaults:

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Simple profile settings page.
+
 ## 1.0.1 2022-04-19
 
 **An update hook is not provided with this release.**

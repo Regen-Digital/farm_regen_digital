@@ -1,0 +1,5 @@
+farm_regen_digital.profiles:
+  base_route: farm_settings.settings_page
+  route_name: farm_regen_digital.profiles
+  title: 'Profiles'
+  weight: 1
