@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Simple profile settings page.
 
+### Changed
+
+- Depend on farm_loocc 1.0.1
+
 ## 1.0.1 2022-04-19
 
 **An update hook is not provided with this release.**
