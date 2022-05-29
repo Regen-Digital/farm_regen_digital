@@ -1,0 +1,37 @@
+welcome:
+  subject: 'Your Digital Twin is ready to setup'
+  body: |-
+    You are undertaking the Environmental Farm Assessment and as part of that we are setting you up with a Digital Twin of your farm.
+
+    Your Digital Twin is like a website for your farm and it will reflect your farm as data, maps and models in the digital economy.
+
+    The Digital Twin of your farm is: yours. You own it.
+
+    You decide who gets access to what information within it. It's yours in the same way any other asset that you buy is yours.
+
+    If you want to take your Digital Twin and host it somewhere else you can. It's yours.
+
+    If you want to do nothing with it you can. It's yours.
+
+    You will "evolve" and use your Digital Twin more over time as you continue to work with Regen Farmers Mutual.
+
+    1. Log in and set your password.
+
+        This one-time login link will log you in the first time:
+        [user:one-time-login-url]
+
+        In the future, you can log in with the following credentials:
+
+        URL: https://[site:url-brief]
+        Email: [user:mail]
+        Password: [user:password]
+
+    2. Bookmark https://[site:url-brief] on your phone and computer so you can find it easily.
+
+    3. Get support
+
+    If you have any issues contact your landscape agronomist or the central services at hello@regenfarmersmutual.com.
+
+    Lets get started!
+
+    - The Regen Farmers Mutual
