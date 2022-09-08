@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Include FarmLab v1.0.0-beta1 [#6](https://github.com/paul121/farm_regen_digital/issues/6)
+
 ## 1.0.3 2022-05-29
 
 ### Added
