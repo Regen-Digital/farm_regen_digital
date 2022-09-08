@@ -3,10 +3,30 @@ farm_regen_digital.integrations:
   parent: farm.base
   route_name: view.farm_loocc_estimates.page
   weight: 10
+farm_regen_digital.integrations.farmlab:
+  title: FarmLab
+  parent: farm_regen_digital.integrations
+  route_name: farm_farmlab.boundaries
+farm_regen_digital.integrations.farmlab_boundaries:
+  title: Boundaries
+  parent: farm_regen_digital.integrations.farmlab
+  route_name: farm_farmlab.boundaries
+  weight: 1
+farm_regen_digital.integrations.farmlab_cadastrals:
+  title: Cadastrals
+  parent: farm_regen_digital.integrations.farmlab
+  route_name: farm_farmlab.cadastral
+  weight: 5
+farm_regen_digital.integrations.farmlab_settings:
+  title: Settings
+  parent: farm_regen_digital.integrations.farmlab
+  route_name: farm_farmlab.status
+  weight: 10
 farm_regen_digital.integrations.loocc:
   title: LOOC-C
   parent: farm_regen_digital.integrations
   route_name: view.farm_loocc_estimates.page
+  weight: 5
 farm_regen_digital.integrations.myfarmkey:
   title: MyFarmKey
   parent: farm_regen_digital.integrations
