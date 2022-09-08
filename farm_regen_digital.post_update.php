@@ -13,3 +13,12 @@ function farm_regen_digital_post_update_enable_farm_farmlab(&$sandbox = NULL) {
     \Drupal::service('module_installer')->install(['farm_farmlab']);
   }
 }
+
+/**
+ * Install farm_import_kml module.
+ */
+function farm_regen_digital_post_update_enable_farm_import_kml(&$sandbox = NULL) {
+  if (!\Drupal::service('module_handler')->moduleExists('farm_import_kml')) {
+    \Drupal::service('module_installer')->install(['farm_import_kml']);
+  }
+}

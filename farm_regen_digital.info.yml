@@ -6,6 +6,7 @@ core_version_requirement: ^9
 dependencies:
   - drupal:help
   - farm_farmlab:farm_farmlab
+  - farm:farm_import_kml
   - farm_loocc:farm_loocc
   - farm_myfarmkey:farm_myfarmkey
   - farm_regen_digital:farm_regen_digital_profile
