@@ -1,0 +1,7 @@
+name: Regen Digital Map
+type: module
+description: farmOS module for Regen Digital maps.
+package: farmOS Custom
+core_version_requirement: ^9
+dependencies:
+  - farm_regen_digital:farm_regen_digital

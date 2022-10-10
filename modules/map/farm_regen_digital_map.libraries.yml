@@ -1,0 +1,5 @@
+behavior_regen_digital_standard:
+  js:
+    js/farmOS.map.behaviors.regen_digital_standard.js: { }
+  dependencies:
+    - farm_map/farmOS-map

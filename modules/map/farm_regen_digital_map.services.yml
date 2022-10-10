@@ -1,0 +1,5 @@
+services:
+  regen_digital_map_map_render_event_subscriber:
+    class: Drupal\farm_regen_digital_map\EventSubscriber\MapRenderEventSubscriber
+    tags:
+      - { name: 'event_subscriber' }

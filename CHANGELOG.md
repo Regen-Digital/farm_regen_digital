@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Initial national map layers [#9](https://github.com/paul121/farm_regen_digital/issues/9)
+
 ## 1.1.0 2022-09-08
 
 ### Added

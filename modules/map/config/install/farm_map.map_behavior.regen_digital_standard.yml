@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_regen_digital_map
+id: regen_digital_standard
+label: Regen Digital standard
+description: 'Standard regen digtial layers.'
+library: 'farm_regen_digital_map/behavior_regen_digital_standard'
+settings: {  }

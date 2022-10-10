@@ -9,4 +9,5 @@ dependencies:
   - farm:farm_import_kml
   - farm_loocc:farm_loocc
   - farm_myfarmkey:farm_myfarmkey
+  - farm_regen_digital:farm_regen_digital_map
   - farm_regen_digital:farm_regen_digital_profile
