@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- ALA protected species layers [#16](https://github.com/paul121/farm_regen_digital/issues/16)
+
 ## 1.2.1 2022-10-24
 
 ### Changed
