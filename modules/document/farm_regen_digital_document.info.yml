@@ -1,0 +1,8 @@
+name: Regen Digital Document
+type: module
+description: Adds document asset for Regen Digital.
+package: farmOS Custom
+core_version_requirement: ^9
+dependencies:
+  - farm:asset
+  - farm:farm_entity
