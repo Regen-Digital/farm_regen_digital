@@ -8,17 +8,11 @@
           "email": "paul.weidner@gmail.com"
       }
   ],
-  "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/mstenta/farm_profile.git"
-      }
-  ],
   "require": {
     "drupal/farm_loocc": "^1.0.1",
     "drupal/farm_myfarmkey": "^1.0",
     "drupal/farm_farmlab": "^1.0.0-beta2",
-    "farmos/farmos": "^2.0.0-beta6",
-    "mstenta/farm_profile": "1.x-dev"
+    "drupal/farm_profile": "1.x-dev",
+    "farmos/farmos": "^2.0.0-beta6"
   }
 }
