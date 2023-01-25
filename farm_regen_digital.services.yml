@@ -1,0 +1,5 @@
+services:
+  farm_regen_digital.route_subscriber:
+    class: Drupal\farm_regen_digital\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

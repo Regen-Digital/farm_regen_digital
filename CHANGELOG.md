@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- [Deny access to the /farm/settings/modules form #23](https://github.com/Regen-Digital/farm_regen_digital/pull/23)
+
 ## 1.3.0 2022-11-02
 
 ### Added
