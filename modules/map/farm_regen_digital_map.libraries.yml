@@ -1,3 +1,8 @@
+farmos_map_utils:
+  js:
+    js/farmos-map-utils/dist/farmos-map-utils.umd.js: {
+      minified: true
+    }
 behavior_regen_digital_standard:
   js:
     js/farmOS.map.behaviors.regen_digital_standard.js: { }
