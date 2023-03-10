@@ -8,3 +8,12 @@ behavior_regen_digital_standard:
     js/farmOS.map.behaviors.regen_digital_standard.js: { }
   dependencies:
     - farm_map/farmOS-map
+threatened_species:
+  css:
+    theme:
+      css/threatened-species.css: { }
+  js:
+    js/farmOS.map.behaviors.threatened_species.js: { }
+  dependencies:
+    - farm_map/farmOS-map
+    - farm_regen_digital_map/farmos_map_utils

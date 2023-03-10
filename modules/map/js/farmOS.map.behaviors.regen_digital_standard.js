@@ -38,47 +38,6 @@
         visible: false,
       };
       instance.addLayer('wms', opts);
-
-      // Add ALA protected species layers.
-      const species = [
-        {
-          label: 'Koala',
-          taxa: 'e9d6fbbd-1505-4073-990a-dc66c930dad6',
-          color: '9BC53D',
-        },
-        {
-          label: 'Regent Honeyeater',
-          taxa: '31869a0e-2ce5-40be-b6f6-c0231a48b414',
-          color: 'FDE74C',
-        },
-        {
-          label: 'Swift Parrot',
-          taxa: '4cb195fd-b127-44cb-ad85-a62d224e9a96',
-          color: 'E9B44C',
-        },
-        {
-          label: 'Eastern Quoll',
-          taxa: '52149285-a12a-4085-a285-b41af5ba3ce3',
-          color: 'E94F37',
-        },
-      ];
-      const alaAttribution = '<a href="https://www.ala.org.au/">© Atlas of Living Australia</a>';
-      species.forEach((species_data) => {
-        let species_layer_opts = {
-          title: species_data.label,
-          url: 'https://biocache-ws.ala.org.au/ws/ogc/wms/reflect',
-          params: {
-            q: `lsid:https://biodiversity.org.au/afd/taxa/${species_data.taxa}`,
-            LAYERS: 'ALA:occurrences',
-            VERSION: '1.1.1',
-            ENV: `color:${species_data.color};name:circle;size:4;opacity:0.8`,
-          },
-          attribution: alaAttribution,
-          group: 'Protected species',
-          visible: false,
-        };
-        instance.addLayer('wms', species_layer_opts);
-      });
     }
   };
 }());

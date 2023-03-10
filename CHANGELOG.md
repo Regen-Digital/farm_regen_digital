@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add JS library with farmOS-map utils.
+- Threatened species action plan. [#19](https://github.com/paul121/farm_regen_digital/issues/19)
 
 ## 1.3.1 2023-01-25
 

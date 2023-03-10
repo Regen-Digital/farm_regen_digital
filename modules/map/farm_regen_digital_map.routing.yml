@@ -1,0 +1,7 @@
+farm_regen_digital_map.threatened_species:
+  path: 'threatened-species'
+  defaults:
+    _title: 'Threatened Species Action Plan'
+    _form: Drupal\farm_regen_digital_map\Form\ThreatenedSpecies
+  requirements:
+    _permission: 'access content'

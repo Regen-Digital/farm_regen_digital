@@ -1,0 +1,12 @@
+div#species-count-wrapper ul {
+  position: relative;
+  margin-left: 0;
+}
+div#species-count-wrapper ul li {
+  --icon-color: red;
+}
+div#species-count-wrapper ul li::before {
+  content: "\23FA";
+  padding-right: 5px;
+  color: var(--icon-color);
+}

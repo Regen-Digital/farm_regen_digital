@@ -1,0 +1,5 @@
+farm.threatened_species:
+  title: Threatened Species
+  parent: farm_regen_digital.integrations
+  route_name: farm_regen_digital_map.threatened_species
+  weight: 8
