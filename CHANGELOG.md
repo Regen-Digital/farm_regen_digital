@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 1.5.0 2023-04-05
+
 ### Changed
 
 - Update branding logo. [#26](https://github.com/Regen-Digital/farm_regen_digital/issues/26)
