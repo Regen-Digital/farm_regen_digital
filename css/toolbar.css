@@ -1,11 +1,11 @@
 /* Logo size and spacing. */
 .toolbar .toolbar-bar #toolbar-item-administration-tray .toolbar-logo {
-  padding: .5em !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .toolbar .toolbar-bar #toolbar-item-administration-tray .toolbar-logo img.toolbar-icon-home {
-  max-width: 65px !important;
-  max-height: 65px !important;
-  margin: auto !important;
+  max-width: var(--gin-toolbar-width);
 }
 
 /* Integrations icon. */
