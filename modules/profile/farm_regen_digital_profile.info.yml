@@ -2,7 +2,7 @@ name: 'farmOS Profile: Regen Digital'
 type: module
 description: 'Provides a farmOS profile type for Regen Digital information.'
 package: farmOS Profile
-core_version_requirement: ^9
+core_version_requirement: ^9 || ^10
 dependencies:
   - drupal:options
   - drupal:text
