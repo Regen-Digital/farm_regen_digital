@@ -13,6 +13,6 @@
     "drupal/farm_myfarmkey": "^1.0",
     "drupal/farm_farmlab": "^1.0.0-beta2",
     "drupal/farm_profile": "1.x-dev",
-    "farmos/farmos": "^2.0.0-beta6"
+    "farmos/farmos": "^2.0.0-beta6 || ^3"
   }
 }
